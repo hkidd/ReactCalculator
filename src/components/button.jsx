@@ -1,6 +1,7 @@
 import React from "react";
 import "./button.css";
 
+// Checks whether the button is an operator (/, +, *, -)
 const isOperator = (val) => {
   return !isNaN(val) || val === "." || val === "=";
 };
