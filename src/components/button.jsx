@@ -5,7 +5,7 @@ const isOperator = (val) => {
   return !isNaN(val) || val === "." || val === "=";
 };
 
-const Button = (props) => {
+export const Button = (props) => {
   return (
     <div
       className={`button-wrapper ${
@@ -16,5 +16,3 @@ const Button = (props) => {
     </div>
   );
 };
-
-export default Button;
